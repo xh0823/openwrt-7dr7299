@@ -33,6 +33,7 @@ clone_if_missing https://github.com/pymumu/openwrt-smartdns            ""     pa
 clone_if_missing https://github.com/QiuSimons/luci-app-daed            ""     package/dae
 clone_if_missing https://github.com/Openwrt-Passwall/openwrt-passwall-packages "" package/passwall-packages
 clone_if_missing https://github.com/Openwrt-Passwall/openwrt-passwall  ""     package/passwall-luci
+clone_if_missing https://github.com/Openwrt-Passwall/openwrt-passwall2  ""     package/passwall2-luci
 clone_if_missing https://github.com/EasyTier/luci-app-easytier.git     ""     package/luci-app-easytier
 
 sed -i '/^GO_PKG:=github.com\/daeuniverse\/dae-wing$/a GO_PKG_INSTALL_EXTRA:=webrender/web' \
