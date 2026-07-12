@@ -17,7 +17,7 @@ on:
 permissions: write-all
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6.git
+  REPO_URL: https://github.com/xhxyyn/immortalwrt-mt798x-6.6.git
   REPO_BRANCH: mt798x-mt799x-6.6-mtwifi
   CONFIG_BASE: configs/6.6.txt
   CONFIG_CUSTOM: configs/CUSTOMIZE.txt
