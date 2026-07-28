@@ -15,8 +15,8 @@ CONFIG_PACKAGE_ddns-scripts-cloudflare=y
 # ---------------------------------------------------------
 # DiskMan
 # ---------------------------------------------------------
-CONFIG_PACKAGE_luci-app-diskman=n
-CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=n
+#CONFIG_PACKAGE_luci-app-diskman=n
+#CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=n
 
 # ---------------------------------------------------------
 # Argon Theme
@@ -75,7 +75,7 @@ CONFIG_PACKAGE_luci-app-passwall2_Nftables_Transparent_Proxy=y
 # EasyTier
 # ---------------------------------------------------------
 CONFIG_EASYTIER_INCLUDE_WEBCONSOLE=n
-CONFIG_PACKAGE_luci-app-easytier=y
+# CONFIG_PACKAGE_luci-app-easytier=n
 
 # ---------------------------------------------------------
 # ZeroTier
@@ -115,6 +115,6 @@ CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=n
 # ---------------------------------------------------------
 # dashboard
 # ---------------------------------------------------------
-CONFIG_PACKAGE_luci-mod-dashboard=y
-CONFIG_PACKAGE_luci-i18n-dashboard-zh-cn=y
+# CONFIG_PACKAGE_luci-mod-dashboard=n
+# CONFIG_PACKAGE_luci-i18n-dashboard-zh-cn=n
 # ---------------------------------------------------------
