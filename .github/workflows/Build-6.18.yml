@@ -17,8 +17,8 @@ on:
 permissions: write-all
 
 env:
-  REPO_URL: https://github.com/xh0823/imoutowrt.git
-  REPO_BRANCH: master-mediatek-7dr7299
+  REPO_URL: https://github.com/xh0823/openwrt.git
+  REPO_BRANCH: master-mediatek-XTR8488
   CONFIG_BASE: configs/6.18.txt
   CONFIG_CUSTOM: configs/CUSTOMIZE.txt
   DIY_SCRIPT: scripts/diy-script.sh
@@ -26,7 +26,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: TL-7DR7299-v1
+  FIRMWARE_TAG: TP-Link TL-XTR8488
   TZ: Asia/Shanghai
 
 jobs:
