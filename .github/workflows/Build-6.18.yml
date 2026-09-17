@@ -26,7 +26,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: TP-Link TL-XTR8488
+  FIRMWARE_TAG: TL-XTR8488
   TZ: Asia/Shanghai
 
 jobs:
@@ -171,13 +171,13 @@ jobs:
       if: steps.compile.outputs.status == 'success' && env.FIRMWARE_RELEASE == 'true'
       uses: ncipollo/release-action@v1
       with:
-        name: ImmortalWrt ${{ env.FIRMWARE_TAG }} (${{ env.DATE }})
+        name: ImmortalWrt TP-Link TL-XTR8488 (${{ env.DATE }})
         allowUpdates: true
         tag: ${{ env.FIRMWARE_TAG }}-${{ env.VERSION_KERNEL }}
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: ${{ env.FIRMWARE_PATH }}/*
         body: |
-          **This is OpenWrt Firmware for ${{ env.FIRMWARE_TAG }}**
+          **This is OpenWrt Firmware for TP-Link TL-XTR8488**
           ### 固件信息(${{ env.DEVICE_PROFILE }})
           - 默认地址: 192.168.123.1
           - 默认密码: 无
