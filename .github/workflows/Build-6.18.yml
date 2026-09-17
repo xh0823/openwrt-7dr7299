@@ -18,7 +18,7 @@ permissions: write-all
 
 env:
   REPO_URL: https://github.com/xh0823/openwrt.git
-  REPO_BRANCH: master-mediatek-XTR8488
+  REPO_BRANCH: master
   CONFIG_BASE: configs/6.18.txt
   CONFIG_CUSTOM: configs/CUSTOMIZE.txt
   DIY_SCRIPT: scripts/diy-script.sh
