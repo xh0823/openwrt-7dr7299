@@ -108,7 +108,7 @@ jobs:
       if: github.event.inputs.clean_toolchain == 'true'
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: gh cache delete --all
+      run: gh cache delete --all || true
 
     - name: Cache Toolchain(缓存工具链)
       if: env.CACHE_TOOLCHAIN == 'true'
