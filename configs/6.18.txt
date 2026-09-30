@@ -5,6 +5,7 @@
 CONFIG_TARGET_mediatek=y
 CONFIG_TARGET_mediatek_filogic=y
 CONFIG_TARGET_mediatek_filogic_DEVICE_tplink_tl-7dr7299-v1=y
+CONFIG_PACKAGE_printer-support=y
 CONFIG_KERNEL_ARM_PMU=y
 CONFIG_KERNEL_ARM_PMUV3=y
 CONFIG_KERNEL_FTRACE=y
