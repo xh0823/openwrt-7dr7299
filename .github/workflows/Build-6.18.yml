@@ -17,7 +17,7 @@ on:
 permissions: write-all
 
 env:
-  REPO_URL: https://github.com/xh0823/imoutowrt.git
+  REPO_URL: https://github.com/xh0823/immortalwrt.git
   REPO_BRANCH: master
   CONFIG_BASE: configs/6.18.txt
   CONFIG_CUSTOM: configs/CUSTOMIZE.txt
