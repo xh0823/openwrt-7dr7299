@@ -30,9 +30,6 @@ clone_if_missing https://github.com/Openwrt-Passwall/openwrt-passwall  ""     pa
 clone_if_missing https://github.com/Openwrt-Passwall/openwrt-passwall2  ""     package/passwall2-luci
 
 
-sed -i '/^GO_PKG:=github.com\/daeuniverse\/dae-wing$/a GO_PKG_INSTALL_EXTRA:=webrender/web' \
-  package/dae/daed/Makefile
-
 # 修改版本为编译日期
 DATE_VERSION="$(date +%Y.%m.%d)"
 VERSION_FILE="include/version.mk"
