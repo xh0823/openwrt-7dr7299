@@ -34,5 +34,6 @@ clone_if_missing https://github.com/Openwrt-Passwall/openwrt-passwall2  ""     p
 DATE_VERSION="$(date +%Y.%m.%d)"
 VERSION_FILE="include/version.mk"
 echo "[diy] 修改版本为编译日期: $DATE_VERSION"
+sed -i "s/^VERSION_NUMBER:=.*/VERSION_NUMBER:=-$DATE_VERSION 编译人员 已是最新版本/" "$VERSION_FILE"
 
 echo "=== diy-script: 完成 ==="
