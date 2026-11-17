@@ -235,4 +235,3 @@ jobs:
             - 源码分支: ${{ env.REPO_BRANCH }}
             - 固件编译前最后一次➦[源码更新记录](${{ env.REPO_URL }})
             - ${{ env.VERSION_INFO }}
-```
