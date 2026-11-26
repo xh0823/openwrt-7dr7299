@@ -1,0 +1,19 @@
+#
+# ImmortalWrt Configuration - TP-Link TL-7DR7299 v1 (MT7988/Filogic)
+#
+
+CONFIG_TARGET_mediatek=y
+CONFIG_TARGET_mediatek_filogic=y
+CONFIG_TARGET_mediatek_filogic_DEVICE_tplink_tl-xtr8488=y
+CONFIG_PACKAGE_printer-support=y
+CONFIG_PACKAGE_luci-app-p910nd=y
+CONFIG_PACKAGE_kmod-usb-printer=y
+CONFIG_PACKAGE_p910nd=y
+CONFIG_PACKAGE_luci-i18n-p910nd-zh-cn=y
+CONFIG_PACKAGE_kmod-usb3=y
+CONFIG_PACKAGE_kmod-usb-core=y
+CONFIG_PACKAGE_printer-support=y
+CONFIG_LUCI_LANG_zh_Hans=y
+CONFIG_PACKAGE_luci=y
+# CONFIG_PACKAGE_libatomic is not set
+# CONFIG_PACKAGE_haproxy is not set
